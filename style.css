@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+html,body {
+    height: 100%;
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+}
+
+.clear {
+    clear: both;
+}
+
+.title h1 {
+    text-align: left;
+    border-bottom: 1px solid gray;
+    color: blue;
+}
+
+form {
+    margin-top: 40px;
+}
+
+form input {
+    padding: 5px;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+form input[type=submit] {
+    font-size: inherit;
+}
+
+.result {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.result h1 {
+    display: inline;
+    padding: 1px;
+    border-bottom: 1px solid black;
+}
+
+form span{
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.infor-imc {
+    display: none;
+    padding-top: 10px;
+    font-size: 19px;
+}
+
+@media screen and (max-width: 708px) {
+    form input{
+        width: 50%;
+        float: left;
+        margin-bottom: 20px;
+    }
+
+    form input[type=submit] {
+        float: none;
+        width: 30%;
+        display: block;
+        margin: auto;
+    }
+
+    form span {
+        text-align: center;
+        display: block;
+        padding-bottom: 10px;
+    }
+
+    .infor-imc {
+        text-align: center;
+    }
+
+}
