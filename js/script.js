@@ -54,8 +54,6 @@ function openwindow() {
     });
 }
 
-openwindow();
-
 function fecharJanela(e){
     var element1 = $('body');
 
@@ -68,9 +66,8 @@ function fecharJanela(e){
     });
 }
 
-fecharJanela();
-
-
 // chamando as funções
+openwindow();
+fecharJanela();
 resetInput();
 Imc();
